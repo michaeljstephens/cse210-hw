@@ -16,6 +16,7 @@ class Entry
         Response = response;
     }
 
+
     public override string ToString()
     {
         return $"Date: {Date}\nPrompt: {Prompt}\nResponse: {Response}\n";
